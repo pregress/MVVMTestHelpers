@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MvvmTestHelpers
 {
     /// <summary>
-    /// 
+    /// Test if the setter of a public property on a view model raises the PropertyChanged event.
     /// </summary>
     /// <typeparam name="T">A View Model implementing INotifyPropertyChanged</typeparam>
     public class NotifyPropertyChangedTester<T>
