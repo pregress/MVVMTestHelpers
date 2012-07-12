@@ -1,0 +1,7 @@
+NotifyPropertyChangedTester
+
+If you have worked with WPF/Silverlight our any other MVVM implementation, you came a cross INotifyPropertyChanged.
+What the Notify Property Changed Tester does is Testing all the public properties of a class. 
+It checks if a property is set, it raises the PropertyChangedEvent with the correct property name.
+
+This is done by reflection.
