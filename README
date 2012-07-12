@@ -5,3 +5,6 @@ What the Notify Property Changed Tester does is Testing all the public propertie
 It checks if a property is set, it raises the PropertyChangedEvent with the correct property name.
 
 This is done by reflection.
+
+For more info see the Wiki: 
+https://github.com/prebenh/MVVMTestHelpers/wiki
