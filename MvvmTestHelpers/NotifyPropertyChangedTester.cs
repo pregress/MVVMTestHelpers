@@ -57,8 +57,6 @@ namespace MvvmTestHelpers
 
                 if (setter == null) continue;
 
-                var name = property.Name;
-
                 var receivedEvents = new List<string>();
 
                 PropertyChangedEventHandler propertyChanged =
