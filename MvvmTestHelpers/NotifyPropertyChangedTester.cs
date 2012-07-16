@@ -42,7 +42,7 @@ namespace MvvmTestHelpers
         /// <param name="excludeProperties">The excluded property types.</param>
         public void ExcludeProperties(IEnumerable<Type> excludeProperties)
         {
-            _properties = _properties.Where(prop => excludeProperties.Contains(prop.PropertyType));
+            _properties = _properties.Where(prop => !excludeProperties.Contains(prop.PropertyType));
         }
 
         /// <summary>
